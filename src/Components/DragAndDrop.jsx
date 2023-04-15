@@ -72,6 +72,8 @@ const DragAndDrop = () => {
     const currentIndex = currentBoard.items.indexOf(currentItem)
     // consol log ????
 
+    // проверка комита
+
 
     // убрать чтобы не убиралось с первой доск.
     //currentBoard.items.splice(currentIndex, 1)
