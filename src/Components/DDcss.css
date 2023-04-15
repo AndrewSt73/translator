@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.board_app {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */ /* все доски по центру */
+    
+}
+
+.board{
+    min-width: 100px;
+    height: 700px;
+    border: 2px solid black;
+    padding: 20px 10px;
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.board__title{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.item{
+    width: 100%;
+    min-height: 40px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px 0;
+    cursor: grab;
+    background-color: lightblue;
+}
